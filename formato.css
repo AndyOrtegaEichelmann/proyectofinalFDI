@@ -1,0 +1,389 @@
+background {
+    background-color: #E5E5E5;
+}
+
+/* formato de header */
+.header {
+    background-image: url(imagenes/SLIME1.jpg);
+    width: 100%;
+    height: 399px;
+    align-content: center;
+}
+
+/* formato de menu de navegación */
+.topnav {
+    overflow: hidden;
+    background-color: #A4C2F4;
+    width: 100%;
+    align-content: center;
+}
+
+/* formato de hpervinculo de menu de navegación */
+.topnav a {
+    float: left;
+    width: 356px;
+    display: block;
+    color: #2B2B2B;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 30px;
+}
+
+/* formato de interacción con hpervinculo de menu de navegaciónr */
+.topnav a:hover {
+  background-color: #7DA1FD;
+  color: #DCF1F1;
+}
+
+/* formato del footer */
+.footer {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background: #7DA1FD;
+    align-content: center;
+}
+
+/* formato del heading 2 en el footer */
+.footer h2 {
+    text-align: center;
+    color: #F0F0F0;
+    font-family: helvetica;
+    font-size: 40px;
+}
+
+/* formato del footer del lado izquierdo */
+.footerLeft {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+/* formato de imagen del footer del lado izquierdo */
+.footerLeft img{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+/* formato de interacción de imagen del footer del lado izquierdo */
+.footerLeft img:hover{
+    background-color: #A4C2F4;
+    border-radius: 25%;
+}
+
+/* formato del footer del lado derecho */
+.footerRight{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+/* formato del hpervinculo del footer del lado derecho */
+.footerRight a {
+    text-decoration: none;
+    text-align: center;
+    color: #8FFFB5;
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+/* formato de interacción del hpervinculo del footer del lado derecho */
+.footerRight a:hover {
+    color: #A4C2F4;
+}
+
+/* formato del contenedor donde se presenta la información */
+.infoblock {
+    margin: auto;
+    width: 1008px;
+    height: 450px;
+    background-color: rgba(196, 196, 196, 0.1);
+}
+
+/* formato de heading 1 dentro del bloke de información */
+.infoblock h1{
+    font-family: helvetica;
+    font-size: 40px;
+    padding: 15px 0px 0px 15px;
+}
+
+/* formato de contenedor del texto informacional */
+.infotext {
+    margin-top: 2%;
+    width: 60%;
+    height: 92%;
+    overflow: scroll;
+    float: left;
+}
+
+/* formato de heading 3 dentro del texto informacional */
+.infotext h3 {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 35px;
+    padding: 0px 10px;
+}
+
+/* formato de parrafo dentro del texto informacional */
+.infotext p {
+    text-align: left;
+    font-family: helvetica;
+    font-size: 20px;
+    padding: 0px 72px;
+}
+
+/* formato de contenedor del contenido multimedia complementario a la informacion */
+.infoimg {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+/* formato de contenido de imagenes en contenedor multimedia */
+.infoimg img {
+    height: 367px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+/* formato de liks referenciado producto */
+.infolinks {
+text-align: center;
+}
+
+/* formato de imagenes de referencia de productos */
+.infolinks img {
+    margin: auto;
+    height: 50px;
+    padding: 10px;
+}
+
+/* formato de interaccion con imagenes de referencia de productos */
+.infolinks img:hover {
+    border: 2px solid #A4C2F4;
+}
+
+/* formato de informacion general de medio */
+.infogeneral {
+    width: 55%;
+    height: 100%;
+    overflow: scroll;
+    float: left;
+}
+
+/* formato de heading 2 de informacion del medio */
+.infogeneral h2 {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 35px;
+    padding: 0px 20px;
+}
+
+/* formato de parrafo de informacion del medio */
+.infogeneral p {
+    text-align: left;
+    font-family: helvetica;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+/* formato de contenedor de menu de navegacion del contenido del medio */
+.infonav {
+    margin-top: 5%;
+    float: left;
+    overflow: scroll;
+    width: 45%;
+    height: 80%;
+    text-align: center;
+}
+
+/* formato de hipervinculo de navegacion del contenido del medio */
+.infonav a {
+    margin: auto;
+    display: block;
+    background-color: #A4C2F4;
+    width: 300px;
+    color: #2B2B2B;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 30px;
+}
+/* formato de interaccion con hipervinculo de navegacion del contenido del medio */
+ .infonav a:hover {
+    background-color: #7DA1FD;
+    color: #DCF1F1;
+}
+
+/* formato de contenedor para newsletter */
+.newsleter {
+    margin: auto;
+    width: 1008px;
+    height: 102px;
+    background-color: rgba(196, 196, 196, 0.1);
+}
+
+/* ubicacion de contenedor para newsletter */
+.newsletertitle {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+/* formato del heading 3 para newsleter */
+.newsletertitle h3 {
+    text-align: center;
+    padding-top: 5px;
+    color: #2B2B2B;
+    font-family: helvetica;
+    font-size: 30px;
+}
+
+/* ubicacion de contenedor para newsletter para escribir */
+.newsleterblock {
+    margin: auto;
+    margin-top: 25px;
+    float: left;
+    width: 95%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+}
+
+.newsleterblock p{
+    text-align: center;
+    font-family: helvetica;
+    color: #A4C2F4;
+    cursor: pointer;
+}
+
+/* formato de contenedor para temporada del anime */
+.animeseason {
+    margin: auto;
+    width: 1008px;
+    height: 1250px;
+    background-color: rgba(196, 196, 196, 0.1);
+}
+
+/* formato de contenedor para tabla de la temporada de anime */
+.animetable {
+    width: 90%;
+    height: 590px;
+    margin: auto;
+    font-family: helvetica;
+    overflow: scroll;
+}
+
+/*  formato del tamaño de la tabla para temporada anime */
+.animetable table{
+    width: 100%;
+}
+
+/* tamaño de contenido en la celda del la tabla de anime */
+.animetable td{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* formato del tamaño de imagenes dentro de la tabla de anime */
+.animetable img {
+    width: 298px;
+    height: 168px;
+}
+
+
+/* formato del contenedor con informacion de la temporada de anime */
+.infoseason{
+    width: 60%;
+    overflow: scroll;
+    float: left;
+}
+
+/* formato de heading 3 para la informacion de anime */
+.infoseason h3 {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 35px;
+    padding: 0px 10px;
+}
+
+/* formato de parrafo para la informacion de anime */
+.infoseason p {
+    text-align: left;
+    font-family: helvetica;
+    font-size: 20px;
+    padding: 0px 72px;
+    overflow: scroll;
+}
+
+/* formato de contenedor para triler de la temporada de anime */
+.mediaseason {
+    width: 40%;
+    height: 450px;
+    float: left;
+}
+
+/* formato de tamaño y posicion del video de la temporada del anime */
+.mediaseason iframe{
+    width: 90%;
+    height: 200px;
+    margin-left: 5;
+    margin-top: 25%;
+}
+
+/* formato de contenedor del texto informacional de pagina prinsipal */
+.infotexthome {
+    width: 60%;
+    height: 70%;
+    overflow: scroll;
+    float: left;
+}
+
+/* formato de heading 3 dentro del texto informacional de pagina prinsipal */
+.infotexthome h3 {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 35px;
+    padding: 0px 10px;
+}
+
+/* formato de parrafo dentro del texto informacional de pagina prinsipal */
+.infotexthome p {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 20px;
+    padding: 0px 72px;
+}
+
+/* formato de tamaño y posicion del video multimedia en informacion de pagina prinsipal */
+.mediahome {
+    width: 40%;
+    height: 450;
+    float: left;
+}
+
+/* formato de tamaño y posicion del video de pagina prinsipal */
+.mediahome iframe{
+    width: 85%;
+    height: 193px;
+    margin-top: 10%;
+}
+
+/* formato de contenedor del contenido multimedia complementario a la informacion de pagina prinsipal */
+.infoimghome {
+    width: 40%;
+    height: 80%;
+    float: left;
+}
+
+/* formato de contenido de imagenes en contenedor multimedia de pagina prinsipal */
+.infoimghome img {
+    height: 325px;
+    margin-left: 15%;
+    margin-top: 0%;
+}
